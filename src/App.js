@@ -2,11 +2,12 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Footer from "./components/Footer";
-import Imgcarousel from './components/Imgcarousel';
-import Imgcarousel2 from './components/Imgcarousel2';
-import Imgcarousel3 from './components/Imgcarousel3';
-import Imgcarousel4 from './components/Imgcarousel4';
-import Imgcarousel5 from './components/Imgcarousel5';
+import Mainpage from './components/Mainpage';
+import BreakFast from './components/BreakFast';
+import Dinner from './components/Dinner';
+import Cocktails from './components/Cocktails';
+import Dessert from './components/Dessert';
+import Tryerror from './components/Tryerror';
 
 // import Recipes from './components/Recipes';
 // import Contact from './components/Contact';
@@ -16,12 +17,13 @@ function App() {
   return (
     <React.Fragment> 
       <Navbar />
-      <Imgcarousel />
-      <Imgcarousel2 />
-      <Imgcarousel3 />
-      <Imgcarousel4 />
-      <Imgcarousel5 />
+      <Mainpage />
+      <BreakFast />
+      <Dinner />
+      <Cocktails />
+      <Dessert />
       <Footer />
+      <Tryerror />
   </React.Fragment> 
   );
 }
